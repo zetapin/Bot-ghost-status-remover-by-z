@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Leyendo Chat general","Mirando perfiles","Insultando por MD"];
+const statusMessages = ["Leyendo Chat general","Mirando perfiles","Insultando por MD","Viendo clips de twitch","Silenciando a toxicos","Espiando el server de MC","Espiando paja grupal","Pidiendo IG a chicas","Haciendo caca"];
 
 
 let currentIndex = 0;
