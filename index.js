@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Leyendo Chat general","Mirando perfiles","Insultando por MD","Viendo clips de twitch","Silenciando a toxicos","Espiando el server de MC","Espiando paja grupal","Pidiendo IG a chicas","Haciendo caca"];
+const statusMessages = ["Leyendo Chat general","Mirando perfiles","Insultando por MD","Viendo clips de twitch","Silenciando a toxicos","Espiando el server de MC","Espiando paja grupal","Pidiendo IG a chicas","Haciendo caca","Limpiandose el culo","Viendo tiktok","Jugando a clash royale","Comiendo oreos","Duchandose","En pleno vladimir"];                                     
 
 
 let currentIndex = 0;
@@ -98,7 +98,7 @@ client.once('ready', () => {
 
   setInterval(() => {
     updateStatusAndSendMessages();
-  }, 100000);
+  }, 60000);
 });
 
 login();
